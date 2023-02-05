@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './assets/linkedin-logo.svg';
+import logo from '../assets/linkedin-logo.svg';
 import SearchIcon from '@mui/icons-material/Search';
 import './Header.css';
 import HeaderOption from './HeaderOption';
@@ -8,7 +8,7 @@ import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import ChatIcon from '@mui/icons-material/Chat';
 import NotificationsIcon from '@mui/icons-material/Notifications';
-import avatar from './assets/adil_khursheed.jpeg';
+import avatar from '../assets/adil_khursheed.jpeg';
 
 
 const Header = () => {

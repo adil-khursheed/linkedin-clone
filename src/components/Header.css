@@ -18,10 +18,11 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    justify-content: space-evenly;
+    background-color: #fff;
+    justify-content: space-between;
     width: 100%;
     border-bottom: 0.1px solid lightgray;
-    padding: 10px;
+    padding: 0.625rem 1rem;
     z-index: 999;
 }
 
@@ -56,4 +57,14 @@ header{
 
 .header__right{
     gap: 1.5rem;
+}
+
+@media screen and  (max-width:900px){
+    .logo h1{
+        display: none;
+    }
+
+    .logo img{
+        width: 50px;
+    }
 }
