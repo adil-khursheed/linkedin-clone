@@ -1,4 +1,4 @@
-header,
+.navbar,
 .header__left,
 .logo,
 .header__search,
@@ -19,11 +19,16 @@ header{
     left: 0;
     right: 0;
     background-color: #fff;
-    justify-content: space-between;
     width: 100%;
     border-bottom: 0.1px solid lightgray;
     padding: 0.625rem 1rem;
     z-index: 999;
+}
+
+.navbar{
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
 .header__left{

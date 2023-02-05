@@ -15,6 +15,7 @@ const Header = () => {
   return (
       <>
           <header className='header'>
+              <nav className="navbar">
               <div className='header__left'>
                   <div className='logo'>
                       <h1>Linked</h1>
@@ -34,6 +35,7 @@ const Header = () => {
                   <HeaderOption Icon={NotificationsIcon} title='Notifications'/>
                   <HeaderOption avatar={avatar} title='Me'/>
               </div>
+              </nav>
           </header>
       </>
   )
